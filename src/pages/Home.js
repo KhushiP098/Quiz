@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div className='flex flex-col items-center justify-center '>
-        <p className='text-[80px] leading-[72px] my-10 font-[Lemon] '>Quiz Game</p>
-        <div className='flex items-center justify-center text-[18px] flex-col p-5 border mt-10 shadow-2xl rounded-2xl'>
+        <p className='md:text-[80px] text-[40px] md:leading-[72px] my-10 font-[Lemon] '>Quiz Game</p>
+        <div className='flex items-center justify-center text-[18px] flex-col p-5 border md:mt-10 shadow-2xl rounded-2xl'>
             <p className='text-[30px]  leading-[72px] my-5 font-[Lemon] '>Rules</p>
             <ul className='list-disc px-8 '>
                 <li>You will have only 15 seconds per each question.</li>

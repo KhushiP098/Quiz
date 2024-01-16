@@ -68,7 +68,7 @@ const Question = ({ item, setIndex, index, score, setScore }) => {
 
           {/* timer */}
 
-          <div className='flex justify-end items-center'>
+          <div className='flex justify-end items-center md:mb-2 mb-5'>
 
             <div className='py-2 px-5  text-[20px] bg-blue-500  text-white text-bold rounded-lg mb-2'>Time left :<span>{time}</span></div>
 
@@ -118,7 +118,7 @@ const Question = ({ item, setIndex, index, score, setScore }) => {
           {/* display score */}
           {
             ScoreModal &&
-            <div className='flex flex-col items-center justify-center bg-white w-[600px] h-[520px] absolute  top-[40px]  '>
+            <div className='flex flex-col items-center justify-center bg-white md:w-[600px] sm:h-[520px] w-[360px] h-[580px] absolute  top-[40px]  '>
 
             <FaCrown size={200} className='text-yellow-600 '/>
             <p>You have completed the Quiz!</p>
